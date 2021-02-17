@@ -22,7 +22,7 @@
 //#----------------------------------------------------------------------------
 //# Revisions   :
 //# 41 10.12.20 : based on vd_client and vd_test 
-//# 42 16.02.21 : shift_tap fix
+//# 42 08.03.21 : open OCD 0.11 compatible, shift_tap fix
 //#----------------------------------------------------------------------------
 
 /*!
@@ -75,7 +75,7 @@
 #include "helper/log.h"
 
 #define VD_VERSION 42
-#define VD_BUILD "16.02.21"
+#define VD_BUILD "08.03.21"
 #define VD_BUFFER_LEN 4024
 #define VD_CHEADER_LEN 24
 #define VD_SHEADER_LEN 16
